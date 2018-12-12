@@ -1,0 +1,72 @@
+#select_text {
+    color: rgba(220, 255, 255, 1);
+    margin: 0;
+    height: 11%;
+    font-size: 6vh;
+    background: rgba(50, 50, 50, 1);
+    text-align: center;
+    z-index: 300;
+}
+
+nav > ul {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 45vh;
+    width: 12vw;
+    float: right;
+    list-style:none;
+    font-size: 1.5rem;
+}
+
+button {
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color:rgba(80, 80, 80, 0.5);
+}
+
+#mongoDb {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    float: right;
+}
+
+#enlarge {
+    width: 100%;
+    height: 12vh;
+    float: right;
+}
+
+#upload {
+    width: 100%;
+    height: 12vh;
+    float: right;
+}
+
+#stream {
+    border: 0;
+    width: 100%;
+    height: 89vh;
+    background-color: rgba(0, 0, 0, 0);
+    object-fit: cover;
+}
+
+#content {
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+
+body {
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "San-Francisco";
+    src: url("./SF-Font.dmg");
+}
